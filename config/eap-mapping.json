@@ -1,0 +1,29 @@
+[
+  {
+    "name": "subsidieregister",
+    "type": "ap",
+    "eap": "OSLO-Subsidie.eap",
+    "diagram": "Subsidieregister_applicatieprofiel",
+    "template": "subsidieregister-ap.j2",
+    "title": "Subsidieregister";
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Subsidie",
+    "config" : "config/config-ap.json",
+    "site": "site-skeleton/subsidieregister"
+  },
+    {
+    "name": "subsidie",
+    "type": "voc",
+    "eap": "OSLO-Subsidie.eap",
+    "diagram": "Subsidie_vocabularium",
+    "template": "subsidie-voc.j2",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Subsidie",
+    "config" : "config/config-voc.json",
+    "site": "site-skeleton"
+  }
+]
