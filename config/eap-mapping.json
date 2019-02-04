@@ -5,7 +5,7 @@
     "eap": "OSLO-Subsidie.eap",
     "diagram": "Subsidieregister_applicatieprofiel",
     "template": "subsidieregister-ap.j2",
-    "title": "Subsidieregister";
+    "title": "Subsidieregister",
 	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "12-12-2018",
     "contributors-file": "stakeholders.csv",
