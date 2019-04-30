@@ -6,12 +6,14 @@
     "diagram": "Subsidieregister_applicatieprofiel",
     "template": "subsidieregister-ap.j2",
     "title": "Subsidieregister",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Subsidie",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton/subsidieregister"
+    "site": "site-skeleton/subsidieregister",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
     {
     "name": "subsidie",
@@ -19,11 +21,14 @@
     "eap": "OSLO-Subsidie.eap",
     "diagram": "Subsidie_vocabularium",
     "template": "subsidie-voc.j2",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"title": "Subsidie",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Subsidie",
     "config" : "config/config-voc.json",
-    "site": "site-skeleton"
+    "site": "site-skeleton",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   }
 ]
